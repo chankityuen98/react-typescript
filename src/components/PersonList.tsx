@@ -1,10 +1,8 @@
 // Basic Type: Array of object
-
+// Import Props from other file
+import { Name } from "./Person.Types"
 interface PersonListProps {
-    names:{
-        first: string,
-        last: string
-    }[]
+    names:Name[]
 }
 
 function PersonList(props:PersonListProps){
