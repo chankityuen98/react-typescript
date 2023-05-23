@@ -1,11 +1,5 @@
-// Basic Type: Object
-
-interface PersonProps{
-    name:{
-        first: string,
-        last: string
-    }
-}
+// Basic Type: Object, Import type / interface
+import { PersonProps } from "./Person.Types";
 
 
 function Person(props:PersonProps){
